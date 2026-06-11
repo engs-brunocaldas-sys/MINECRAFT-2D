@@ -152,7 +152,7 @@ int main()
             }
             else
             {
-                if ((objetivo == 1 && (itemEncontrado == 'G' || itemEncontrado == 'P')) || (objetivo == 2 && (itemEncontrado =='F' || itemEncontrado == 'A')) || 3(objetivo == 3 && (itemEncontrado =='P' || itemEncontrado == 'V')))
+                if ((objetivo == 1 && (itemEncontrado == 'G' || itemEncontrado == 'P')) || (objetivo == 2 && (itemEncontrado =='F' || itemEncontrado == 'A')) || (objetivo == 3 && (itemEncontrado =='P' || itemEncontrado == 'V')))
                 {
                     vidas--;
                     cout << "Voce ignorou o item e perdeu uma vida! Vidas restantes: " << vidas << endl;
